@@ -1,0 +1,7 @@
+<p><%= @article.id %></p>
+<p><%= @article.name %></p>
+<p><%= @article.body %></p>
+
+<td><%= button_to 'Delete', article_path(@article), method: :delete %> </td>
+<td><%= link_to 'Update', article_path(@article) %> </td>
+<td><%= link_to 'Back', :back %> </td>
